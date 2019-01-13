@@ -1,0 +1,267 @@
+<div id=D__ID>
+    <section id=form_container__ID>
+        <div id=header__ID>
+    		    Anthropometry
+    	  </div>
+    	  <form id=F__ID>
+            <div class="container">
+                <!-- participant part for all tsak forms -------------------->
+                <div class="row row__ID" id=row_participant__ID>
+                    <div class="col-sm-12 col-lg-9 input__ID">
+                        <span class=label__ID>Participant</span><br>
+                        <input type=text name="Participant" class=form-control id=Participant__ID data-id="Participant" />
+                    </div>
+                    <div class="col-sm-12 col-lg-3 input__ID">
+                        <span class=label__ID>Participant ID</span><br>
+                        <input type=text name="Participant_uid" class=form-control readonly />
+                    </div>
+                    <hr style="border-top: 1px solid #888;width: 100%;margin:10px 0">
+                </div>
+                <!---------------------------------------------------->
+
+                <!-- Form Inputs-------------------------------------->
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Systolic Blood Pressure</span>
+                        <input type=number class=form-control name=BP_sys>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Diastolic Blood Pressure</span>
+                        <input type=number class=form-control name=BP_dia>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Oxygen Saturation (SpO2)</span>
+                        <input type=number class=form-control name=spo2>
+                        <!--radiobuttons and free text??-->
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Heart rate</span>
+                        <input type=number class=form-control  name=HR>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Heart Rate Variability (RR)</span>
+                        <input type=text class=form-control  name=RR>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        Click if any abnormalities
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>General Appearance</span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="general_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="general_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=general>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Head Eyes Ears Nose Throat (HEENT) </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="heent_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="heent_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=heent>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Neck (Including thyroid) </span>
+                        <!--radio buttons for normal or abnormal-->
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=neck>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Skin</span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="skin_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="skin_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=skin>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Lymph nodes  </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="lymph_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="lymph_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=lymph>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Chest/Lungs </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="chest_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="chest_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=chest>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Heart </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="heart_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="heart_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=heart>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Abdomen</span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="abdomen_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="abdomen_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=abdomen>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Extremities</span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="extremities_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="extremities_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=extremities>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Central Nervous System </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="cns_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="cns_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=cns>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Other </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="other_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="other_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=other>
+                    </div>
+                </div>
+                <div class='row row__ID'>
+                    <div class="col">
+                        <span>Genitourinary </span>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="genitourinary_ab" value="Yes"> Yes
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="genitourinary_ab" value="No"> No
+                            </label>
+                        </div>
+                        <input type=text class=form-control  placeholder = "if abnormal please specify" name=genitourinary>
+                    </div>
+                </div>
+                <!---------------------------------------------------->
+
+
+                <!-- submit button part for all tsak forms------------>
+                <br>
+                <div class="row">
+                    <div class=col>
+                        <button id=submit__ID type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                </div>
+                <!---------------------------------------------------->
+        	</div>
+        </form>
+    </section>
+    <script>
+        function F__ID(){
+            //-------------------------------------
+            VmInclude:'__COMPONENT__/f/form.01.js'
+            VmInclude:'__CURRENT_PATH__/../../s/shared-task-form.js'
+            //-------------------------------------
+        }
+    </script>
+    <style>
+        VmInclude:__COMPONENT__/f/form.01.css
+    </style>
+</div>
