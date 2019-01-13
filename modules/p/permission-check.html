@@ -53,7 +53,7 @@
                 var txt="<option></option>";
                 for(a in $vm.module_list){
                     if(a.indexOf("permission-")==-1){
-                        var tid=$vm.module_list[a].table_id;
+                        var tid=$vm.module_list[a].Table;
                         if(tid!=undefined && tid!=""){
                             if(tids.indexOf(tid)==-1){
                                 txt+="<option value="+tid+">"+tid+" - "+a+"</option>";
