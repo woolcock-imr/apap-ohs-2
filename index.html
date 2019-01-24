@@ -16,7 +16,7 @@
     <script boot-up>
         //------------------------------------
         //change version if your modules have been modified
-        $vm={};$VmAPI={};$vm.ver=[0.32,0.27];
+        $vm={};$vm.ver=[0.33,0.27];
         //------------------------------------
         //app urls
         $vm.public_url_$A='https://apap-ohs.rt.org.au';
@@ -38,7 +38,7 @@
         //Do not need to chang the following code in most cases
         //The following code will load a framework module and your application module
         //------------------------------------
-        $vm.start_time=new Date().getTime();
+        $VmAPI={}; $vm.start_time=new Date().getTime();
         //------------------------------------
         //replace the url
         $vm.replace_url=function(url){
